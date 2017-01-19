@@ -1,0 +1,12 @@
+[
+  {
+    "name": "basic",
+    "id": 1,
+    "questIter": 0
+  },
+  {
+    "name": "advanced",
+    "id": 2,
+    "questIter": 5
+  }
+]
