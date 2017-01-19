@@ -1,0 +1,40 @@
+<ion-view view-title="Galileo Quiz">
+  <ion-content>
+    <div class="card">
+      <div class="item item-divider">
+        Discover History of Science with Galileo!
+    </div>
+    <div class="item item-text-wrap">
+      Galileo is an interactive learnig tool for the exploration of history and philosophy of science. Through a series of quizzes you can learn the most curious and interesting facts about science: the force that shapes our civilization at every step.
+      Immerse yourself in a world of discoveries, great scientists, research and technology with Galileo.
+    </div>
+    </div>
+
+    <div class="card" ng-show=unanswered>
+      <div class="item item-divider">
+        Sample Question
+
+      </div>
+      <div class="item">{{question.question}}</div>
+      <div ng-repeat="x in [0,1,2,3]">
+          <button class="button button-block {{buttonStyle}}" id={{x+1}} ng-click="checkAnswer({{x}} )" >{{question.options[x]}}{{y}}</button>
+      </div>
+
+      <h3> {{mess}} </h3>
+      <div ng-show=resp>
+        <button class="button button-large button-balanced" ng-click="resetQuestion()" >Try again!</button>
+      </div>
+
+      </div>
+      <div class="card" ng-show=!unanswered>
+        <button class="button button-block button-calm">Right!! This is the correct answer</button>
+        <div class="item item-text-wrap">
+          <div class="item item-image" style="width: auto">
+        <img src="/img/{{question.img}}">
+      </div>
+        <p>{{question.text}}</p>
+      </div>
+      </div>
+
+  </ion-content>
+</ion-view>

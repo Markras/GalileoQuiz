@@ -1,0 +1,103 @@
+Upload it with Strong Loop. Post "Questions". 
+
+[
+  {
+    "id": 1,
+    "question": "Who first formulated the theory of Big Bang?",
+    "options": [
+      "Copernic",
+      "Fred Hoyle",
+      "Georges Lemaitre",
+      "Albert Einstein"
+    ],
+    "answer": 2,
+    "img": "images/Lemaitre.jpg",
+    "text": "While Hoyle was the first one to invent the name 'Big Bang', it was Georges Lemaitre, a belgian astronomer and priest, who laid the foundations of this revolutionary theory in 1927",
+    "modulesId": 1,
+    "moduleId": 1
+  },
+  {
+    "id": 2,
+    "question": "Which great biologist and philosopher used to be called 'Darwin's bulldog' for his strong support of Darwin's theories? ",
+    "options": [
+      "Thomas Huxley",
+      "Julian Huxley",
+      "Aldous Huxley",
+      "Andrew Huxley"
+    ],
+    "answer": 0,
+    "img": "images/Huxley.jpg",
+    "text": "Thomas Huxley (1825–1895) was Darwin's friend and great communicator of his theories. He famously confronted bishop Samuel Wilbeforce over the theory of evolution in 1860.",
+    "modulesId": 1
+  },
+  {
+    "id": 3,
+    "question": "Who created the first periodic table of elements in the modern sense",
+    "options": [
+      "Antoine Lavoisier",
+      "Marie Curie",
+      "Marcellin Berthelot",
+      "Dmitri Mendeleev"
+    ],
+    "answer": 3,
+    "img": "images/Mendeleev.jpg",
+    "text": "Dmitri Mendeleev (1834 – 1907), one of the greatest Russian chemists. On 6 March 1869, Mendeleev made a formal presentation to the Russian Chemical Society, entitled The Dependence between the Properties of the Atomic Weights of the Elements. His ideas inspired modern periodic tables.",
+    "modulesId": 1
+  },
+  {
+    "id": 4,
+    "question": "Which great scientist said 'God does not play dice with the universe.' to undermine the discoveries of quantum mechanics?",
+    "options": [
+      "Werner Heisenberg",
+      "Albert Einstein",
+      "Erwin Schrödinger",
+      "Ernest Rutherford"
+    ],
+    "answer": 1,
+    "img": "images/Einstein.jpg",
+    "text": "Albert Einstein (1879 – 1955), the greatest mind of the 20th century was always skeptical of quantum physics. This famous quote reffered precisely to the Heisenberg Uncertainty Principle explaining inherent randomness of quantum effects.",
+    "modulesId": 1
+  },
+  {
+    "id": 5,
+    "question": "The discovery of which element is attributed to three chemists: Antoine Lavoisier, Joseph Priestley, Carl Wilhelm Scheele?",
+    "options": [
+      "Oxygen",
+      "Nitrogen",
+      "Sodium",
+      "Potassium"
+    ],
+    "answer": 0,
+    "img": "images/Lavoisier.jpg",
+    "text": "Oxygen is in the center of one of the gretest controversies in history of science. Were it Scheele and Priestley who discovered it? Certainly they isolated it. But it was Lavoisier who properly understood its very nature.",
+    "modulesId": 1
+  },
+  {
+    "id": 6,
+    "question": "What is the name of J.J. Thomson's atom model, disproved by later experiments.",
+    "options": [
+      "Apple Pie Model",
+      "Cheesecake Model",
+      "Plum Pudding Model",
+      "Lemon Jelly Model"
+    ],
+    "answer": 2,
+    "img": "images/Lavoisier.jpg",
+    "text": "Oxygen is in the center of one of the gretest controversies in history of science. Were it Scheele and Priestley who discovered it? Certainly they isolated it. But it was Lavoisier who properly understood its very nature.",
+    "modulesId": 2
+  },
+  {
+    "id": 7,
+    "question": "What was the name of the first cloned animal",
+    "options": [
+      "Belly",
+      "Molly",
+      "Dolly",
+      "Nelly"
+    ],
+    "answer": 2,
+    "img": "images/Dolly.jpg",
+    "text": "Dolly sheep was the first animal to be cloned in 1996.",
+    "modulesId": 2
+  }
+]

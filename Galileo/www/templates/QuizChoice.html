@@ -1,0 +1,16 @@
+<ion-view view-title="Galileo Quiz">
+  <ion-content scroll="true">
+    <div class="card">
+      <div class="item item-divider">
+        Choose Questions modules
+      </div>
+      <div class="item">
+      <div ng-repeat="module in modules">
+        <a href="#/app/quiz">
+      <button class="button button-block button-balanced"  ng-click="setProperty(module.id); setQuestIter(module.questIter)" >
+      {{module.name}}</button></a>
+    </div>
+    </div>
+    </div>
+  </ion-content>
+</ion-view>
